@@ -24,18 +24,22 @@ body{
 }
 
 .conteudoInternoIntroducao {
-    padding-left: 5em;
-    padding-right: 5em;
+    display: flex;
+ justify-content: center;
+ align-items: center;
+
     margin-top: 1em;
       
 }
 
 .tituloInternoIntroducao {
-   
+    display: grid;
+    grid-template-columns:900px 1fr 1fr;
     flex-wrap: wrap;
-    width: 40em;
+    gap: 10em;
     font-size: 24px;
     padding-bottom: 2em;
+    padding-left: 7em;
     
 
 }
