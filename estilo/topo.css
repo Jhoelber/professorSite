@@ -9,6 +9,7 @@ body{
 
 .bannerHeader {
     position: relative;
+    
 }
 
 .textoHeader {
@@ -19,19 +20,23 @@ body{
     color: #ffffff;
     flex-wrap: wrap;
     width: 800px;
+   
 }
 
 .conteudoInternoIntroducao {
+    padding-left: 5em;
+    padding-right: 5em;
     margin-top: 1em;
       
 }
 
 .tituloInternoIntroducao {
+   
     flex-wrap: wrap;
     width: 40em;
     font-size: 24px;
     padding-bottom: 2em;
-    padding-left: 3em;
+    
 
 }
 
