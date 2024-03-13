@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: "Inter", sans-serif;
+}
+
+.bannerHeader {
+    position: relative;
+}
+
+.textoHeader {
+    position: absolute;
+    top: 40%;
+    left: 16px;
+    font-size: 65px;
+    color: #ffffff;
+    flex-wrap: wrap;
+    width: 800px;
+}
+
+.conteudoInternoIntroducao {
+    margin-top: 1em;
+      
+}
+
+.tituloInternoIntroducao {
+    flex-wrap: wrap;
+    width: 40em;
+    font-size: 24px;
+    padding-bottom: 2em;
+    padding-left: 3em;
+
+}
+
+.disposicaoGridIntroducao {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    align-items: center;
+}
+
+.primeiraColuna {
+    display: flex;
+    flex-direction: column;
+    
+    gap: 50px;
+}
+
+.paragrafoPrimeiraColuna {
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+.tituloPrimeiraColuna {
+    font-size: 24px;
+}
+
+
+.segundaColuna{
+    display: flex;
+    flex-direction: column;
+    gap:10em ;
+}
+
+.conteudoInternoSegundaColuna{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   gap: 10px;
+
+}
+
+.alinhamentoGrid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.conteudoIntroducao{
+    padding-left: 10em;
+}
+
+.videosIntroducao {
+    margin-top: 2em;
+    width: 400px;
+    border-radius: 10px;
+}

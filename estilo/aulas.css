@@ -1,0 +1,41 @@
+.aulaExercicio {
+    
+    margin: 1em !important;
+    width: 300px;
+}
+
+.gridConteudoAulas {
+    padding-top: 4em;
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    justify-content: center;
+    align-content: center;
+
+
+}
+
+.conteudoInternoAulas {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.paragrafoPreExercicios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.paragrafoPreExerciciosInterno {
+    width: 580px;
+    padding-top: 1em    ;
+}
+.nomeAula{
+    padding-top: 1em;
+}
+
+
+

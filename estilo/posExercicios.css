@@ -1,0 +1,16 @@
+.paragrafoAgradecimentos{
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 2em;
+}
+
+
+.paragrafoAgradecimentosInterno{
+  
+    width: 800px;
+}
+video {
+    cursor: pointer;
+}
