@@ -14,7 +14,7 @@ body{
 .textoHeader {
     position: absolute;
     top: 40%;
-    left: 16px;
+    left: 80px;
     font-size: 65px;
     color: #ffffff;
     flex-wrap: wrap;
