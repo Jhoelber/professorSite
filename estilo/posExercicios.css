@@ -8,9 +8,40 @@
 
 
 .paragrafoAgradecimentosInterno{
-  
-    width: 800px;
+  margin-top: 2em;
+    width: 900px;
+    font-size: 24px;
 }
 video {
     cursor: pointer;
+}
+
+.gridConteudoAgradecimentos{
+    margin-left: 5em;
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    gap: 6em;
+    justify-content: center;
+    
+}
+
+.tituloAgradecimento{
+    font-size: 79px;
+    margin-bottom: 16px;
+}
+.divInternaAgradecimentos{
+    border-right: 4px solid black;
+    display: flex;
+  
+   
+    flex-direction: column;
+    
+    
+}
+.textoInternoAgradecimento{
+    font-size: 16px;
+    width: 250px;
+}
+#css{
+    border-right:none;
 }
