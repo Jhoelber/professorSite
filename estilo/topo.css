@@ -7,6 +7,21 @@ body{
     font-family: "Inter", sans-serif;
 }
 
+
+body::-webkit-scrollbar {
+    width: 10px;             
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: transparent;        
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(206, 203, 203);   
+    border-radius: 20px;      
+    border: none;  
+  }
+
 .bannerHeader {
     position: relative;
     
