@@ -1,0 +1,27 @@
+.alternativas{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    border-radius: 10px;
+    flex-direction: column;
+    background-color: #e6e6e6be;
+    color: rgb(0, 0, 0);
+    padding: 1em;  
+    gap: 1em;
+
+}
+.alinharAlternativas{
+    margin: 2em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+.alternativaA,.alternativaB,.alternativaC,.alternativaD{
+    background-color: rgb(255, 255, 255);
+    padding: 1em;
+    border-radius: 10px;
+    width:400px;
+}
